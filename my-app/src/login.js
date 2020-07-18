@@ -13,7 +13,7 @@ const GridWrapper = styled.div`
  
 `;
 
-function googlelogin(){
+function Googlelogin(){
 
         const[name,setname]=useState("");
         const[email,setemail]=useState("");
@@ -40,10 +40,4 @@ function googlelogin(){
         );
 }
 
-export default class login extends React.Component {
-    render() {
-        return (
-          <googlelogin></googlelogin>
-        );
-    }
-}
+export default Googlelogin();

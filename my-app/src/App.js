@@ -11,7 +11,7 @@ import {Logindetail} from './component/logindetail';
 
 import { Home } from './Home';
 import { About } from './About';
-
+// import { Googlelogin } from './login';
 
 
 class App extends React.Component {
@@ -35,7 +35,7 @@ class App extends React.Component {
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
                 
-                {/* <Route path="/login" component={Login} /> */}
+                {/* <Route path="/login" component={Googlelogin} /> */}
               </Switch>
               
         </Router>
